@@ -8,7 +8,9 @@ public class Exercise1
         char[] firstArray = {'p','a','s','s','w','o','r','d'};
 
         char[] thirdArray = new char[firstArray.length];
+        //copyOfRange method
         char[] secondArray= Arrays.copyOfRange(firstArray, 4,firstArray.length);
+        //arraycopy method
         System.arraycopy(firstArray, 4, thirdArray,4,firstArray.length-4);
 
         System.out.println(secondArray);
