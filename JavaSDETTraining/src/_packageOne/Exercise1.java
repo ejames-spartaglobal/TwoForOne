@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class Exercise1
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         char[] firstArray = {'p','a','s','s','w','o','r','d'};
 
         char[] thirdArray = new char[firstArray.length];
