@@ -11,7 +11,7 @@ public class Exercise1
         //copyOfRange method
         char[] secondArray= Arrays.copyOfRange(firstArray, 4,firstArray.length);
         //arraycopy method
-        System.arraycopy(firstArray, 4, thirdArray,4,firstArray.length-4);
+        System.arraycopy(firstArray, 4, thirdArray,0,firstArray.length-4);
 
         System.out.println(secondArray);
         System.out.println(thirdArray);
