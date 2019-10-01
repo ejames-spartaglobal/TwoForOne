@@ -30,11 +30,6 @@ public class SortingExercise {
             n3=n1;
             n1=temp;
         }
-       /* else if(n2>n1){
-            int temp2 = n1;
-            n1=n2;
-            n2=temp2;
-        }*/
             if(n3>n2){
             int temp = n3;
             n3=n2;
