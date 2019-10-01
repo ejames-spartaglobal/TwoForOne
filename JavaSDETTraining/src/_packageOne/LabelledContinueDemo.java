@@ -16,7 +16,7 @@ public class LabelledContinueDemo
             int j=i;//0
             System.out.println(j);
             int k = 0;//0
-            System.out.println(j);
+            System.out.println(k);
             while(n--!=0){//2
                 if(myPhrase.charAt(j++) != subString.charAt(k++)){
                     continue test;// labelled continue
