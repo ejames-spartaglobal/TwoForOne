@@ -3,14 +3,14 @@ package _packageTwo;
 public class ReverseIntExercise
 {
     public static void main(String[] args) {
-        int num=237810967;
+        long num=237810967;
         Reverse(num);
     }
 
-    public static String Reverse(int number){
+    public static String Reverse(long number){
 
         String reverse = " ";
-        String numString= Integer.toString(number);
+        String numString= Long.toString(number);
         int length = numString.length();
        int reverseLength = numString.length();
 
